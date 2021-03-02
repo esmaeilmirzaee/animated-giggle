@@ -16,12 +16,10 @@ export default function Home() {
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <main>
-        <button onClick={openModal} className='btn'>
-          I'm a modal
-        </button>
-        <Modal showModal={showModal} setShowModal={setShowModal} />
-      </main>
+      <button onClick={openModal} className='btn'>
+        I'm a modal
+      </button>
+      <Modal showModal={showModal} setShowModal={setShowModal} />
     </div>
   );
 }
